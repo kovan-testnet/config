@@ -9,7 +9,7 @@ Most users who want to interact with the Kovan chain simply need to run parity w
 * Parity 1.5.5 or greater, use `parity --chain kovan`
 * For Parity 1.5.4 or less, use `parity --chain kovan-config.json`
 
-[kovan-config.json](https://github.com/kovan-testnet/config/blob/master/kovan-config.json) file for kovan is in this repo.
+[kovan-config.json](https://github.com/kovan-testnet/config/blob/master/kovan-config.json) in this repo.
 
 ## Authorities (Block Validators)
 
