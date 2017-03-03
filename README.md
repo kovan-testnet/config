@@ -1,15 +1,17 @@
+# Connecting to the Kovan Testnet
+
 Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) is installed.
 
-# Non-Authorities (Regular Users)
+## Non-Authorities (Regular Users)
 
 Most users who want to interact with the Kovan chain simply need to run parity with the correct chain config:
 
 * Parity 1.5.5 or greater, use `parity --chain kovan`
 * For Parity 1.5.4 or less, use `parity --chain kovan-config.json`
 
-kovan-config.json file for kovan is in this repo.
+[kovan-config.json](https://github.com/kovan-testnet/config/blob/master/kovan-config.json) file for kovan is in this repo.
 
-# Authorities (Block Validators)
+## Authorities (Block Validators)
 
 Additionally, authorities need to have their keystores and decryption keys set up:
 
@@ -31,7 +33,7 @@ npm install;
 npm install -g pm2;
 ```
 
-Edit the config file `app.json`:
+Edit the config file `eth-net-intelligence-api/app.json`:
 
 ```
 [
@@ -57,7 +59,7 @@ Edit the config file `app.json`:
 ]
 ```
 
-Then start netstats
+Then start netstats:
 
 ```
 pm2 start app.json
