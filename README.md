@@ -26,7 +26,7 @@ parity --chain=kovan-config.json --force-sealing --engine-signer=[authority addr
 
 ### Netstats 
 
-For Authorities, It's adviced to set up [netstats](https://github.com/cubedro/eth-net-intelligence-api), so your node status is visible on http://kovan-stats.parity.io/.
+For Authorities, It's advised to set up [netstats](https://github.com/cubedro/eth-net-intelligence-api), so your node status is visible on http://kovan-stats.parity.io/.
 
 ```
 git clone https://github.com/cubedro/eth-net-intelligence-api;
