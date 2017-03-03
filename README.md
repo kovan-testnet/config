@@ -18,7 +18,7 @@ Additionally, authorities need to have their keystores and decryption keys set u
 * `~/.local/share/io.parity.ethereum/keys/kovan/[keystore file].json`
 * `~/[file containing keystore password]`
 
-Then start parity with the following conig:
+Then start parity with the following command:
 
 ```
 parity --chain=kovan-config.json --force-sealing --engine-signer=[authority address] --password=[file containing keystore password]
