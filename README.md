@@ -2,6 +2,8 @@
 
 Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) is installed.
 
+After configuring, you probably want to acquire some Kovan Ether, to do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
+
 ## Non-Authorities (Regular Users)
 
 ### OSX / Linux
@@ -16,10 +18,6 @@ Most users who want to interact with the Kovan chain simply need to run parity w
 ### Windows
 
 A set up guide video for windows has also been created: https://www.youtube.com/watch?v=dTjstkfOT8E
-
-#### Faucet
-
-Non-authorities can receive testnet either by following the Faucet guide: https://github.com/kovan-testnet/faucet
 
 ## Authorities (Block Validators)
 
