@@ -17,6 +17,10 @@ Most users who want to interact with the Kovan chain simply need to run parity w
 
 A set up guide video for windows has also been created: https://www.youtube.com/watch?v=dTjstkfOT8E
 
+#### Faucet
+
+Non-authorities can receive testnet either by following the Faucet guide: https://github.com/kovan-testnet/faucet
+
 ## Authorities (Block Validators)
 
 Additionally, authorities need to have their keystores and decryption keys set up:
