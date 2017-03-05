@@ -1,6 +1,6 @@
 # Connecting to the Kovan Testnet
 
-Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) is installed.
+Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) 1.5.4 or greater is installed.
 
 After configuring, you probably want to acquire some Kovan Ether, to do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
 
