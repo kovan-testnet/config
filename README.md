@@ -4,12 +4,16 @@ Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github
 
 ## Non-Authorities (Regular Users)
 
+### OSX / Linux
+
 Most users who want to interact with the Kovan chain simply need to run parity with the correct chain config:
 
 * Parity 1.5.5 or greater, use `parity --chain=kovan`
 * For Parity 1.5.4, use `parity --chain=kovan-config.json`
 
 [kovan-config.json](https://github.com/kovan-testnet/config/blob/master/kovan-config.json) in this repo.
+
+### Windows
 
 A set up guide video for windows has also been created: https://www.youtube.com/watch?v=dTjstkfOT8E
 
