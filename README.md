@@ -6,9 +6,9 @@ After configuring, you probably want to acquire some Kovan Ether. To do so, foll
 
 ## Non-Authorities (Regular Users)
 
-### OSX / Linux
-
 Most users who want to interact with the Kovan chain simply need to run parity with the correct chain config:
+
+### OSX / Linux
 
 * Parity 1.5.5 or greater, use `parity --chain=kovan`
 * For Parity 1.5.4, use `parity --chain=kovan-config.json`
