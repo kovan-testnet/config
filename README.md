@@ -11,6 +11,8 @@ Most users who want to interact with the Kovan chain simply need to run parity w
 
 [kovan-config.json](https://github.com/kovan-testnet/config/blob/master/kovan-config.json) in this repo.
 
+A set up guide video for windows has also been created: https://www.youtube.com/watch?v=dTjstkfOT8E
+
 ## Authorities (Block Validators)
 
 Additionally, authorities need to have their keystores and decryption keys set up:
