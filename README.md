@@ -2,7 +2,7 @@
 
 Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) 1.5.4 or greater is installed.
 
-After configuring, you probably want to acquire some Kovan Ether, to do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
+After configuring, you probably want to acquire some Kovan Ether. To do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
 
 ## Non-Authorities (Regular Users)
 
