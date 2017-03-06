@@ -1,4 +1,4 @@
-*Not sure what Kovan is all about? Read the [proposal](https://github.com/kovan-testnet/proposal)*!
+*Not sure what Kovan is all about? Read the [proposal](https://github.com/kovan-testnet/proposal)!*
 
 # Connecting to the Kovan Testnet
 
