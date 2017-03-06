@@ -6,6 +6,8 @@ Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github
 
 After configuring, you probably want to acquire some Kovan Ether. To do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
 
+⚠️  If you're deploying with truffle, set the `gas` for the network to something less than Kovan's block limit of `4700000`.
+
 ## Non-Authorities (Regular Users)
 
 Most users who want to interact with the Kovan chain simply need to run parity with the correct chain config:
