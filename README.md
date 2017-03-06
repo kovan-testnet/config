@@ -1,3 +1,5 @@
+*Not sure what Kovan is all about? Read the [proposal](https://github.com/kovan-testnet/proposal)*
+
 # Connecting to the Kovan Testnet
 
 Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) 1.5.4 or greater is installed.
