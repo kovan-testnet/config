@@ -66,7 +66,7 @@ Edit the config file `eth-net-intelligence-api/app.json`:
       "INSTANCE_NAME"   : "[company name] Kovan Authority Node #0",
       "CONTACT_DETAILS" : "[admin email]",
       "WS_SERVER"       : "wss://kovan-stats.parity.io",
-      "WS_SECRET"       : "be7ky6mo",
+      "WS_SECRET"       : "[ask in the gitter channel]",
       "VERBOSITY"       : 2
     }
   }
