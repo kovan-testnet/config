@@ -77,4 +77,6 @@ Then start netstats:
 
 ```
 pm2 start app.json
+pm2 startup
+pm2 save
 ```
