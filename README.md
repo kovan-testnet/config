@@ -2,11 +2,11 @@
 
 # Connecting to the Kovan Testnet
 
-Kovoan requires the use of Parity's PoA Protocol. Ensure [Parity](https://github.com/ethcore/parity) 1.5.4 or greater is installed. For Parity support, head to the Parity [gitter channel](https://gitter.im/ethcore/parity).
+Kovoan requires the use of Parity's PoA Protocol. Ensure **[Parity](https://github.com/ethcore/parity) 1.5.7 or greater is installed**. For Parity support, head to the Parity [gitter channel](https://gitter.im/ethcore/parity).
 
 After configuring, you probably want to acquire some Kovan Ether. To do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
 
-⚠️  If you're deploying with truffle, set the `gas` for the network to something less than Kovan's block limit of `4700000`.
+⚠️  If you're deploying, ensure the `gas` provided is somerhing less than Kovan's block limit of `4700000`.
 
 ## Non-Authorities (Regular Users)
 
@@ -14,8 +14,7 @@ Most users who want to interact with the Kovan chain simply need to run parity w
 
 ### OSX / Linux
 
-* Parity 1.5.5 or greater, use `parity --chain=kovan`
-* For Parity 1.5.4, use `parity --chain=kovan-config.json`
+Use `parity --chain=kovan`
 
 [kovan-config.json](https://github.com/kovan-testnet/config/blob/master/kovan-config.json) in this repo.
 
@@ -33,7 +32,13 @@ Additionally, authorities need to have their keystores and decryption keys set u
 Then start parity with the following command:
 
 ```
-parity --chain=kovan-config.json --force-sealing --engine-signer=[authority address] --password=[file containing keystore password]
+parity --chain=kovan --force-sealing --engine-signer=[authority address] --password=[file containing keystore password] --auto-update=all
+```
+
+You can enable transaction signing via RPC (without unlocking the account) by enabling the `personal` JSON-RPC api:
+
+```
+--jsonrpc-apis web3,eth,net,parity,traces,rpc,personal
 ```
 
 ### Netstats 
