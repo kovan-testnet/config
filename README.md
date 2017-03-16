@@ -6,7 +6,7 @@ Kovan requires the use of Parity's PoA Protocol. Ensure **[Parity](https://githu
 
 After configuring, you probably want to acquire some Kovan Ether. To do so, follow the [faucet guide](https://github.com/kovan-testnet/faucet).
 
-⚠️  If you're deploying, ensure the `gas` provided is somerhing less than Kovan's block limit of `4700000`.
+⚠️  If you're deploying, ensure the `gas` provided is somerhing less than Kovan's block limit of `5000000`.
 
 ## Non-Authorities (Regular Users)
 
