@@ -41,7 +41,8 @@ You can enable transaction signing via RPC (without unlocking the account) by en
 
 ### Netstats 
 
-For Authorities, It's advised to set up [netstats](https://github.com/cubedro/eth-net-intelligence-api), so your node status is visible on http://kovan-stats.parity.io/.
+For Authorities, it's advised to set up [netstats](https://github.com/cubedro/eth-net-intelligence-api), so your node status is visible on http://kovan-stats.parity.io/.
+For regular users, your node status dans be displayed on https://stats.kovan.network/.
 
 ```
 git clone https://github.com/cubedro/eth-net-intelligence-api;
@@ -50,7 +51,7 @@ npm install;
 npm install -g pm2;
 ```
 
-Edit the config file `eth-net-intelligence-api/app.json`:
+Edit the config file `eth-net-intelligence-api/app.json`, regular users must set `"WS_SERVER": "wss://stats.kovan.network"` instead:
 
 ```
 [
@@ -75,6 +76,7 @@ Edit the config file `eth-net-intelligence-api/app.json`:
   }
 ]
 ```
+
 
 Then start netstats:
 
