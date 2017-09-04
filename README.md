@@ -20,7 +20,7 @@ Use `parity --chain=kovan`
 
 To run Kovan on windows, edit the Parity startup shortcut and append `--chain kovan`.
 
-Right click the shortcut -> Properties -> edit the "Target" field to end with `...party.exe" --chain kovan`.
+Right click the shortcut -> Properties -> edit the "Target" field to end with `parity.exe" --chain kovan`.
 
 A set up guide video for windows has also been created: https://www.youtube.com/watch?v=dTjstkfOT8E (You no longer need to mess around with the config.json file; just add `--chain kovan`)
 
