@@ -39,6 +39,12 @@ You can enable transaction signing via RPC (without unlocking the account) by en
 --jsonrpc-apis web3,eth,net,parity,traces,rpc,personal
 ```
 
+### Failover
+
+For extra redundancy, you can configure a second box to scan for blocks signed by your authority address, and take over should it appear that the primary instance is down:
+
+https://github.com/paritytech/kovan-failover
+
 ### Netstats 
 
 For Authorities, it's advised to set up [netstats](https://github.com/cubedro/eth-net-intelligence-api), so your node status is visible on http://kovan-stats.parity.io/.
