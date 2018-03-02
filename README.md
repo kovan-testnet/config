@@ -34,7 +34,7 @@ Additionally, authorities need to have their keystores and decryption keys set u
 Then start parity with the following command:
 
 ```
-parity --chain=kovan --force-sealing --engine-signer=[authority address] --password=[file containing keystore password] --auto-update=all
+parity --chain=kovan --force-sealing --engine-signer=[authority address] --password=[file containing keystore password] --auto-update=all --min-gas-price 1000000000 --gas-floor-target 8000000 
 ```
 
 You can enable transaction signing via RPC (without unlocking the account) by enabling the `personal` JSON-RPC api:
@@ -42,6 +42,8 @@ You can enable transaction signing via RPC (without unlocking the account) by en
 ```
 --jsonrpc-apis web3,eth,net,parity,traces,rpc,personal
 ```
+
+Please also ensure your authority has NTP or Chrony installed to ensure your time is kept in sync. This is very important for the AuRA consensus engine.
 
 ### Failover
 
