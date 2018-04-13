@@ -63,6 +63,8 @@ npm install;
 npm install -g pm2;
 ```
 
+## Regular Users
+
 Edit the config file `eth-net-intelligence-api/app.json`, regular users must set `"WS_SERVER": "wss://stats.kovan.network"` instead:
 
 ```
@@ -79,7 +81,7 @@ Edit the config file `eth-net-intelligence-api/app.json`, regular users must set
     "env":
     {
       "NODE_ENV"        : "production",
-      "INSTANCE_NAME"   : "[company name] Kovan Authority Node #0",
+      "INSTANCE_NAME"   : "[company/person name] Kovan Node",
       "CONTACT_DETAILS" : "[admin email]",
       "WS_SERVER"       : "wss://kovan-stats.parity.io",
       "WS_SECRET"       : "[ask in the gitter channel]",
@@ -88,6 +90,33 @@ Edit the config file `eth-net-intelligence-api/app.json`, regular users must set
   }
 ]
 ```
+
+
+## Authorities
+```
+[
+  {
+    "name"              : "kovan-netstats",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "INSTANCE_NAME"   : "[company name] Kovan Authority Node #0",
+      "CONTACT_DETAILS" : "[admin email]",
+      "WS_SERVER"       : "wss://authorities.kovan.network",
+      "WS_SECRET"       : "[ask in the gitter channel]",
+      "VERBOSITY"       : 2
+    }
+  }
+]
+```
+ 
 
 
 Then start netstats:
