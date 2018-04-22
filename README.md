@@ -12,9 +12,13 @@ After configuring, you probably want to acquire some Kovan Ether. To do so, foll
 
 Most users who want to interact with the Kovan chain simply need to run parity with the correct chain config:
 
-### OSX / Linux
+### Linux
 
 Use `parity --chain=kovan`
+
+### OSX
+
+`/Applications/Parity\ Ethereum.app/Contents/MacOS/parity --chain=kovan`
 
 ### Windows
 
